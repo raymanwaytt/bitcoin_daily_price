@@ -1,0 +1,17 @@
+models:
+  - name: stg_coingecko_bitcoin
+    description: "Cleans the raw bitcoin data."
+
+# This block defines our RAW sources
+sources:
+  - name: coingecko # Source name
+    database: silken-apex-477018-d4   # GCP Project ID
+    schema: dbt_bootcamp  # BigQuery Dataset
+    tables: 
+      - name: raw_coingecko_bitcoin   # Table name
+        description: "Raw data imported from CoinGecko API."  
+        columns:
+          - name: date
+            description: "The date of the bitcoin price record."
+          - name: price
+            description: "The price of bitcoin in USD on the given date."

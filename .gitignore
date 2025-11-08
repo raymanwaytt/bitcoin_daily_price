@@ -1,0 +1,20 @@
+# Compiled dbt files
+target/
+
+# dbt packages
+dbt_packages/
+
+# Log files
+logs/
+
+# Python virtual environment
+.venv/
+venv/
+
+# IDE files
+.idea/
+.vscode/
+
+# A safety net for any secret files
+*.json
+*.env
