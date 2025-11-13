@@ -17,4 +17,4 @@ venv/
 
 # A safety net for any secret files
 *.json
-*.env
+*.envcd
