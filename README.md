@@ -6,9 +6,9 @@ All tasks are orchestrated with Apache Airflow running in Docker.
 
 ## Architecture
 
-![Architecture Diagram](image\Pipeline_Architecture.png)
-
----
+<p align="center">
+    <img src="image\Pipeline_Architecture.png" width="750">
+</p>
 
 ## Features
 
