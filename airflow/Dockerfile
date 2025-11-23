@@ -8,5 +8,5 @@ RUN pip install --no-cache-dir \
     pandas \
     pandas-gbq \
     python-dotenv
-ac
+
 WORKDIR /opt/airflow
