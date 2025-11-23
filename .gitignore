@@ -1,20 +1,32 @@
-# Compiled dbt files
+# airflow
+.user.yml
+profiles.yml
+bqt_profiles.yml
+config/
+plugins/
+
+# Python bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# dbt files
 target/
-
-# dbt packages
 dbt_packages/
-
-# Log files
 logs/
+dbt_internal_packages/
+logs/
+analyses/
+macros/
+seeds/
+snapshots/
+tests/
 
-# Python virtual environment
-.venv/
-venv/
-
-# IDE files
-.idea/
-.vscode/
+__pycache__/
 
 # A safety net for any secret files
 *.json
 *.envcd
+.env
+
